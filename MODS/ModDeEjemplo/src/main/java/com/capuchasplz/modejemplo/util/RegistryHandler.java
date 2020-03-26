@@ -17,6 +17,6 @@ public class RegistryHandler {
 		ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
 	}
 	//Items 
-	public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
+	public static final RegistryObject<Item> TARTA_FRESA = ITEMS.register("tarta_fresa", ItemBase::new);
 	
 }
